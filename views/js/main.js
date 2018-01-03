@@ -560,8 +560,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
 
-    // elminate the number of count from 200 to 33
-    for (var i = 0; i < 33; i++) {
+    // elminate the number of count from 200 to 48 ( number can be divid by 8)
+    for (var i = 0; i < 48; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
         elem.src = "images/pizza.png";
